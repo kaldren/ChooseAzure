@@ -1,0 +1,35 @@
+baseURL = "https://chooseazure.com/"
+languageCode = "en-US"
+title = "Kaloyan Drenski"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/chooseazure.png"
+  author = "ChooseAzure.com"
+  description = "Choose Azure, the best cloud in the world!"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  LinkedIn      = "https://www.linkedin.com/in/kdrenski/"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "my blog"
+  url = "https://chooseazure.substack.com/"
+[[menu.main]]
+  name = "my personal website"
+  identifier = "projects"
+  weight = 200
+  url = "https://kdrenski.com"
